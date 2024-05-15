@@ -1,7 +1,15 @@
 # GIMP action-history
 
+(history-item "gimp-help-concepts-usage" 1)
 (history-item "dialogs-about" 1)
 (history-item "dialogs-preferences" 0)
-(history-item "file-print-gtk" 1)
+(history-item "tools-paintbrush" 0)
+(history-item "windows-tab-position" 0)
+(history-item "gimp-online-wiki" 1)
+(history-item "file-print-gtk" 0)
+(history-item "dialogs-tips" 0)
+(history-item "python-fu-console" 0)
+(history-item "dialogs-dashboard" 0)
+(history-item "plug-in-plug-in-details" 1)
 
 # end of action-history
