@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "js": [ "script.js" ],
+      "matches": [ "https://*.cstimer.net/*", "http://*.cstimer.net/*" ],
+      "run_at": "document_end"
+   } ],
+   "icons": {
+      "128": "img/cube.png",
+      "16": "img/cube16.png",
+      "48": "img/cube48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmXvNxhKkHs8PUwCgP7Sku4Vbvz/qxqhnGufU6msRojQiW0zqcLAG8YbdHS/EBI/uNtpRs/ZK04L3jkrfIxAXLq0NzhgzJZRMAMn7IlPzlvYgGmyFQIBQTf5XgVZzFylBJd89ScXyncnyjfUb3YbDNE61/BPM+SkWLCLVvpiDCOSNNPToq5ROfyt98ThfOhS87Z6rW0pWRNsNk/mBAzwuJISJCzBDfh9rhndIKyS+DffdfGocAr7O9aWDzmeozAIB0RHv+ZidzUWw6A+TNEUwpZomNLuvnhvYIxRgf71nRiW9a4dMpGsWd98FWtgVP3vcakeAZcwm82TsNYMVLzOwjQIDAQAB",
+   "manifest_version": 2,
+   "name": "CSTimer Makeover",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.8",
+   "web_accessible_resources": [ "styles.css", "img/favicon.png" ]
+}

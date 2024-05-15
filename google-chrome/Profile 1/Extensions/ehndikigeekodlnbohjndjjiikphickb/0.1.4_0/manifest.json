@@ -1,0 +1,25 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Easily open desired links in a PDF viewer.",
+   "homepage_url": "https://mybrowseraddon.com/open-in-pdf.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAywv8NpjoMQ1AM4DsAVquibPM8O6ICFdNK1cFGigAdEQCRUOCm0+TgZvdJXi2vBgFVa5xKTv7+dkhqmLXxh1AWuuDc8qjJ80iGo5Jv/tnWvUuBpK8TQqqA0L9k8nIQZGe5HveDflhhERePhWImT66JFXTSIjB9CJL4RReHpcvtohVo+/ir3zToxR66Xc7fY+OYiNWhyiHNicf5NCL+2f99dltN11oXO26zbofgkyCjDEv1gGtuIfUF4tOXGtUqAhxaioz0Lrit0f1eGCR8KSJkOMD9O9UGqOETG9tlMXwBmxgW9t9OtsMJEV5wvzPNx97FTUIzIxtcqCe4eXIGHEK/QIDAQAB",
+   "manifest_version": 3,
+   "name": "Open in PDF Viewer",
+   "offline_enabled": true,
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "data/options/options.html"
+   },
+   "permissions": [ "storage", "downloads", "contextMenus", "notifications", "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.4"
+}

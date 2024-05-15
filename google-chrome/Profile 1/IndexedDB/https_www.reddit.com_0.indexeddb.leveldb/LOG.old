@@ -1,0 +1,7 @@
+2024/05/14-20:20:16.885 50c6 Reusing MANIFEST /home/abhi/.config/google-chrome/Profile 1/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/14-20:20:16.886 50c6 Recovering log #3
+2024/05/14-20:20:16.904 50c6 Reusing old log /home/abhi/.config/google-chrome/Profile 1/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 
+2024/05/14-20:20:48.800 50bc Level-0 table #5: started
+2024/05/14-20:20:48.834 50bc Level-0 table #5: 2430 bytes OK
+2024/05/14-20:20:48.872 50bc Delete type=0 #3
+2024/05/14-20:20:48.889 50bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

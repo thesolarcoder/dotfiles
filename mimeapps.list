@@ -1,0 +1,15 @@
+[Default Applications]
+text/plain=nvim.desktop
+application/pdf=org.gnome.Evince.desktop
+image/jpeg=org.gnome.eog.desktop
+video/x-matroska=vlc.desktop
+application/x-compressed-tar=org.gnome.FileRoller.desktop
+
+[Added Associations]
+text/plain=nvim.desktop;
+video/x-matroska=vlc.desktop;mpv.desktop;
+application/pdf=firefox.desktop;org.gnome.Evince.desktop;
+image/jpeg=org.gnome.eog.desktop;
+application/x-yaml=nvim.desktop;helix.desktop;
+text/rust=helix.desktop;
+application/x-compressed-tar=org.gnome.FileRoller.desktop;

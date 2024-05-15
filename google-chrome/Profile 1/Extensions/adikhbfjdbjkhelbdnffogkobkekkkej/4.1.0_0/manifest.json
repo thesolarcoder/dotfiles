@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": "icon-gray.png"
+   },
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "content.styles.css" ],
+      "js": [ "contentScript.bundle.js" ],
+      "match_about_blank": false,
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "differential_fingerprint": "1.bcab378c19e8056a492e22f54cfb15513e42c0354f6a1d48e3cbe359cfe2ba8c",
+   "homepage_url": "https://flipshope.com",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmPrwDfpbZTWMMttSMUD2ft1WAoPAlGyUeQRd3u5oytoUa9SxIfArfsvRPHKVzmTKO9bjInAwlzdDwRBSQkBg8/OlkLv2MyNvT29mo/xhnA478TtePMCAJI919T2Lhj14AgnuhINRETV8wduM5CFgWdZ8VpVsL3n4lTQzwD6K0mDmFD1tAiY315RDAV9GUpLeMPuBfr2GhRRGFck5ayrafVzGTXjg6Z38QlBSaOs4FDRC98dDk4AtE5ucD9C6HB47HZDgZV+3UGX1GFESGrGDf3Pq9Ev+EXrmEAfBUcNrPDHV3HGeSc5lqldrvHnrGdudiqcOcRbe+CXfEsIQ4KJ/VwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "notifications", "tabs", "cookies", "gcm", "storage", "unlimitedStorage", "declarativeNetRequest" ],
+   "short_name": "Flipshope",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "content.styles.css", "icon-128.png", "icon-34.png", "/assets/*" ]
+   } ]
+}

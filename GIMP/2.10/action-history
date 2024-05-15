@@ -1,0 +1,7 @@
+# GIMP action-history
+
+(history-item "dialogs-about" 1)
+(history-item "dialogs-preferences" 0)
+(history-item "file-print-gtk" 1)
+
+# end of action-history

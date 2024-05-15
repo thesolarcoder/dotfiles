@@ -1,0 +1,78 @@
+{
+   "epochs": [ {
+      "calculation_time": "13340997276649054",
+      "config_version": 0,
+      "model_version": "0",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 0,
+      "top_topics_and_observing_domains": [  ]
+   }, {
+      "calculation_time": "13348998714001386",
+      "config_version": 1,
+      "model_version": "1",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 1,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 334
+      }, {
+         "hashed_domains": [  ],
+         "topic": 61
+      }, {
+         "hashed_domains": [  ],
+         "topic": 165
+      }, {
+         "hashed_domains": [  ],
+         "topic": 110
+      }, {
+         "hashed_domains": [  ],
+         "topic": 316
+      } ]
+   }, {
+      "calculation_time": "13351338483292556",
+      "config_version": 1,
+      "model_version": "4",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 309
+      }, {
+         "hashed_domains": [  ],
+         "topic": 91
+      }, {
+         "hashed_domains": [  ],
+         "topic": 268
+      }, {
+         "hashed_domains": [  ],
+         "topic": 479
+      }, {
+         "hashed_domains": [  ],
+         "topic": 334
+      } ]
+   }, {
+      "calculation_time": "13352458531636642",
+      "config_version": 2,
+      "model_version": "4",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 362
+      }, {
+         "hashed_domains": [  ],
+         "topic": 382
+      }, {
+         "hashed_domains": [  ],
+         "topic": 614
+      }, {
+         "hashed_domains": [  ],
+         "topic": 99
+      }, {
+         "hashed_domains": [  ],
+         "topic": 557
+      } ]
+   } ],
+   "hex_encoded_hmac_key": "21F4B498381AFA187DD43E001D36AF401C6609E43D9742A3CC2B61A6E41A8FB3",
+   "next_scheduled_calculation_time": "13353063333368670"
+}
