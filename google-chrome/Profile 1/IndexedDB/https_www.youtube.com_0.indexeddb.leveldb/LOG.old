@@ -1,7 +1,0 @@
-2024/05/14-16:09:27.510 50bb Reusing MANIFEST /home/abhi/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/05/14-16:09:27.510 50bb Recovering log #3
-2024/05/14-16:09:27.623 50bb Reusing old log /home/abhi/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
-2024/05/14-16:10:03.771 50bc Level-0 table #5: started
-2024/05/14-16:10:03.828 50bc Level-0 table #5: 393412 bytes OK
-2024/05/14-16:10:03.868 50bc Delete type=0 #3
-2024/05/14-16:10:03.869 50bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
