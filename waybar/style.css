@@ -2,12 +2,13 @@
     border: none;
     border-radius: 4px;
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family:"Arimo Nerd Font", "LiterationSans Nerd Font", Arial, sans-serif;
+    font-family: "Arimo Nerd Font", "LiterationSans Nerd Font", Arial, sans-serif;
     /* Recommended font sizes: 720p: ~14px, 1080p: ~18px */
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     min-height: 0;
 }
+
 window#waybar {
     background-color: rgba(50, 50, 50, 0.9);
     border-bottom: 1px solid rgba(100, 114, 125, 0.5);
@@ -82,24 +83,25 @@ window#waybar.chromium {
 #idle_inhibitor,
 #mpd {
     padding: 0 10px;
-    margin: 4px 3px; 
+    margin: 4px 3px;
     color: #333333;
 }
 
 #window {
     font-weight: 500;
 }
+
 #workspaces {
     margin: 0 4px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
+.modules-left>widget:first-child>#workspaces {
     margin-left: 0;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > #workspaces {
+.modules-right>widget:last-child>#workspaces {
     margin-right: 0;
 }
 
