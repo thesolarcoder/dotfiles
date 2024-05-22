@@ -44,9 +44,9 @@ output HDMI-A-1 resolution 1920x1080@60hz position 1366,0 adaptive_sync on scale
 # Example configuration:
 
 exec swayidle -w \
-         timeout 300 'swaylock -f -c 000000' \
+         timeout 200 'swaylock -C ~/.config/swaylock/config -f -F -i ~/Pictures/Mecha\-Nostalgia.png' \
          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-         before-sleep 'swaylock -f -c 000000'
+         before-sleep 'swaylock -C ~/.config/swaylock/config -f -F -i ~/Pictures/Mecha\-Nostalgia.png'
 
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -167,6 +167,8 @@ input "2:7:SynPS/2_Synaptics_TouchPad" {
 
     # Move focus to the parent container
     bindsym $mod+a focus parent
+
+    bindsym $mod+q exec wlogout
 #
 # Scratchpad:
 #

@@ -6416,3 +6416,14 @@ May 15 22:09 : exception: Failed to enable output "My HTTP Stream" (httpd); Fail
 May 15 22:09 : exception: Failed to enable output "My HTTP Stream" (httpd); Failed to bind to '192.168.1.6:8000'; Failed to bind socket: Cannot assign requested address
 May 15 22:23 : exception: Failed to enable output "My HTTP Stream" (httpd); Failed to bind to '192.168.1.6:8000'; Failed to bind socket: Cannot assign requested address
 May 15 22:23 : player: played "Dus Bahane (Dus) - K.K - 320Kbps.mp3"
+May 15 22:38 : exception: Failed to enable output "My HTTP Stream" (httpd); Failed to bind to '192.168.1.6:8000'; Failed to bind socket: Cannot assign requested address
+May 15 22:40 : exception: Failed to enable output "My HTTP Stream" (httpd); Failed to bind to '192.168.1.6:8000'; Failed to bind socket: Cannot assign requested address
+May 15 23:10 : player: played "Dus Bahane (Dus) - K.K - 320Kbps.mp3"
+May 22 19:49 : config: option 'device' on line 13 was not recognized
+May 22 19:49 : exception: Failed to enable output "My HTTP Stream" (httpd); Failed to bind to '192.168.1.6:8000'; Failed to bind socket: Cannot assign requested address
+May 22 19:51 : player: played "Dus Bahane (Dus) - K.K - 320Kbps.mp3"
+May 22 20:18 : exception: Failed to enable output "My HTTP Stream" (httpd); Failed to bind to '192.168.1.6:8000'; Failed to bind socket: Cannot assign requested address
+May 22 20:24 : player: played "Arijit Singh/Sunn Raha Hai (Male).mp3"
+May 22 20:24 : exception: Failed to enable output "My HTTP Stream" (httpd); Failed to bind to '192.168.1.6:8000'; Failed to bind socket: Cannot assign requested address
+May 22 20:24 : exception: Failed to enable output "My HTTP Stream" (httpd); Failed to bind to '192.168.1.6:8000'; Failed to bind socket: Cannot assign requested address
+May 22 20:25 : exception: Failed to enable output "My HTTP Stream" (httpd); Failed to bind to '192.168.1.6:8000'; Failed to bind socket: Cannot assign requested address

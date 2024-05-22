@@ -304,7 +304,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -388,7 +388,8 @@
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
-       selcue="1" />
+       selcue="1"
+       curvature="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -578,7 +579,8 @@
     <group
        id="xml"
        h="500"
-       w="300" />
+       w="300"
+       layout="0" />
     <group
        id="find" />
     <group
@@ -681,6 +683,9 @@
     <group
        id="printing"
        asbitmap="0" />
+    <group
+       id="attrib"
+       precision="2" />
   </group>
   <group
      id="printing">
@@ -1028,16 +1033,17 @@
      org.inkscape.template.digital.width="1024.0"
      org.inkscape.template.other.size="512.0"
      org.inkscape.template.other.unit="px"
-     org.inkscape.input.svg.scale="optimizeQuality" />
+     org.inkscape.input.svg.scale="optimizeQuality"
+     org.inkscape.template.prefab.svg="shape_prefab_12_tv_test_pattern.svg" />
   <group
      id="desktop"
      style="fill:#000000;-inkscape-font-specification:'Roboto Thin';font-family:Roboto;stroke:#000000;font-weight:100">
     <group
        width="1358"
-       height="739"
+       height="730"
        x="0"
        y="0"
-       maximized="1"
+       maximized="0"
        fullscreen="0"
        id="geometry" />
     <group
