@@ -1,2 +1,9 @@
 google-chrome/
-.log
+*.log
+*.pid
+GIMP/
+gh/
+dconf/
+go/
+mpdstate
+xfce4/

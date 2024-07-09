@@ -88,7 +88,9 @@ window#waybar.chromium {
 }
 
 #window {
+    font-family: 'JetBrainsMono Nerd Font';
     font-weight: 500;
+    padding-left: 10px;
 }
 
 #workspaces {
@@ -207,20 +209,23 @@ label:focus {
 }
 
 #mpd {
-    background-color: #bbccdd;
-    color: #2a5c45;
+    background: none;
+    color: white;
 }
 
 #mpd.disconnected {
-    background-color: #f53c3c;
+    background: none;
+    color: #ED553B;
 }
 
 #mpd.stopped {
-    background-color: #90b1b1;
+    color: #3CAEA3;
+    background: none;
 }
 
 #mpd.paused {
-    background-color: #51a37a;
+    color: #FFE0E9;
+    background: none;
 }
 
 #language {

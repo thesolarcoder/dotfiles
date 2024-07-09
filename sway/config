@@ -43,10 +43,10 @@ output HDMI-A-1 resolution 1920x1080@60hz position 1366,0 adaptive_sync on scale
 #
 # Example configuration:
 
-exec swayidle -w \
-         timeout 200 'swaylock -C ~/.config/swaylock/config -f -F -i ~/Pictures/Mecha\-Nostalgia.png' \
-         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-         before-sleep 'swaylock -C ~/.config/swaylock/config -f -F -i ~/Pictures/Mecha\-Nostalgia.png'
+#exec swayidle -w \
+#         timeout 500 'swaylock  --screenshots  --clock  --indicator --indicator-radius 100  --indicator-thickness 7 --effect-blur 2x2  --effect-vignette 0.5:0.5   --fade-in 0.2'\
+#         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+#         before-sleep 'swaylock --screenshots --clock  --indicator --indicator-radius 100  --indicator-thickness 7 --effect-blur 2x2  --effect-vignette 0.5:0.5   --fade-in 0.2'
 
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
